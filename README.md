@@ -1,1 +1,1 @@
-# vp
+# Veebiprogrammeerimise tunnitööde hoiustamise repositoorium
