@@ -9,6 +9,19 @@
 	if($hournow >= 8 and $hournow <= 18){
 		$partofday = "õppimise aeg";
 	}
+
+	//vaatame semestri kulgemist
+	$semesterstart = new DateTime("2020-8-31");
+	$semesterend = new DateTime("2020-12-13");
+	$semesterduration = $semesterstart->diff($semesterend);
+	$semesterdurationdays = $semesterduration->format("%r%a");
+	$today = new DateTime("now");
+
+	if ($today<$semesterstart){
+		echo "semester pole alanud";
+	}
+	elseif ()
+	//ajakontroll lõpetada, semestrikontroll lõpetada ja protsendi arvutamine
 ?>
 
 <!DOCTYPE HTML>
