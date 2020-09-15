@@ -1,0 +1,1 @@
+CREATE TABLE `if20_erki_pahovski_1`.`myideas` ( `id_myideas` INT(4) NOT NULL AUTO_INCREMENT , `idea` VARCHAR(256) NOT NULL , `kustutatud` DATETIME NULL , PRIMARY KEY (`id_myideas`)) ENGINE = InnoDB;
